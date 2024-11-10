@@ -5,9 +5,11 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
 import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.matchesPattern;
 
 public class TestcaseIntegration {
     String token;
@@ -114,8 +116,8 @@ public class TestcaseIntegration {
         Response response = requestSpecification.when().get();
         validatableResponse = response.then().log().all();
         validatableResponse.statusCode(200);
-        validatableResponse.body("firstname", equalTo(expectedFirstname));
-        validatableResponse.body("lastname", equalTo(expectedLastname));
+        validatableResponse.body("firstname", Matchers.equalTo(expectedFirstname));
+        validatableResponse.body("lastname", Matchers.equalTo(expectedLastname));
 
     }
     @Test(priority =3 )

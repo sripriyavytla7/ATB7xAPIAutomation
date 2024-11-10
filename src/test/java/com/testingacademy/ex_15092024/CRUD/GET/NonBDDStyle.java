@@ -1,4 +1,4 @@
-package com.testingacademy.ex_15092024.CURD.GET;
+package com.testingacademy.ex_15092024.CRUD.GET;
 
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;

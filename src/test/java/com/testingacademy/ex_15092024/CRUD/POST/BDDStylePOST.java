@@ -1,4 +1,4 @@
-package com.testingacademy.ex_15092024.CURD.POST;
+package com.testingacademy.ex_15092024.CRUD.POST;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Task_Crud_opeartion">
+    <test verbose="2" preserve-order="true" name="TestcaseIntegration">
+        <classes>
+            <class name="com.testingacademy.ex_21092024_testngexamples.CRUD.TestcaseIntegration">
+            </class>
+        </classes>
+    </test>
+</suite>

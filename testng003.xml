@@ -2,8 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="ATB7xAPIAutomationPrograms">
+        <groups>
+            <run> <include name="sanity"> </include>
+            </run>
+        </groups>
         <classes>
-            <class name="com.testingacademy.ex_15092024.CRUD.PUT.NonBDDPUTStyle">
+            <class name="com.testingacademy.ex_21092024_testngexamples.Test006">
             </class>
         </classes>
     </test>

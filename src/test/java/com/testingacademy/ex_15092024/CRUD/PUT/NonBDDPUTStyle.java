@@ -1,4 +1,4 @@
-package com.testingacademy.ex_15092024.CURD.PUT;
+package com.testingacademy.ex_15092024.CRUD.PUT;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
